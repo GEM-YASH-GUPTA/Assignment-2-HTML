@@ -1,0 +1,33 @@
+div.Child div.first > p {
+    background-color: yellow;
+  }
+h1{
+    text-align: center;
+}
+body{
+    background-color:wheat;
+}
+div.adjacent div.sibling1 + p{
+    background-color: rgb(68, 176, 222);
+}
+div.general div.sibling2 ~p{
+    background-color: pink;
+}
+.general{
+    border: 2px;
+    border-style:double;
+    padding: 20px;
+    border-radius: 25px;
+}
+.adjacent{
+    border: 2px;
+    border-style:double;
+    padding: 20px;
+    border-radius: 25px;
+}
+.Child{
+    border: 2px;
+    border-style:double;
+    padding: 20px;
+    border-radius: 25px;
+}
