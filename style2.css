@@ -1,0 +1,18 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+
+div.chain{
+    height: 450px;
+    width: 300px;
+    background-color: pink;
+    margin-left: 500px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+div.chain p{
+    padding: 20px;
+    overflow: hidden;
+}
